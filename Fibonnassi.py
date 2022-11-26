@@ -1,7 +1,7 @@
-
-
-#fincion 
+#3 ejemplos 
 #recibe 3 parametros x = y = n = cantidad de iteraciones
+
+#funcion 1
 def fib_list(x,y,n):
     L=[x,y] #creamos una lista
     #ciclo for para las iteraciones 
@@ -11,8 +11,7 @@ def fib_list(x,y,n):
     #se devuelve el ultimo numero de la    
     return L[-1]
 
-
-#fibonacci recursividad
+#funcion 2
 def fib_rec(x,y,n):
     #se almacena la suma de los dos indices anteriores
     z = x + y
@@ -28,8 +27,7 @@ def fib_rec(x,y,n):
         #el resultado es el indice inicial
         return x
 
-#fibbonacci
-
+#funcion 3
 def fib_for(x,y,n):
     for i in range(n-1):
         z = x + y
